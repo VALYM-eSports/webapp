@@ -19,6 +19,12 @@ npm i -g pnpm
 pnpm i
 ```
 
+### Force pnpm usage
+
+```bash
+npm run preinstall
+```
+
 ### Configure .env
 
 copy/paste `.env.example` content into `.env` at root of project
