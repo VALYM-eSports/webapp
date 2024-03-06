@@ -11,7 +11,13 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.2"
+    "next": "14.1.2",
+    "@reduxjs/toolkit": "^2.0.1",
+    "i18next": "^23.7.9",
+    "ni18n": "^1.1.0",
+    "react-i18next": "^13.5.0",
+    "react-icons": "^4.12.0",
+    "react-redux": "^9.0.4"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -22,6 +28,8 @@
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.1.2"
+    "eslint-config-next": "14.1.2",
+    "daisyui": "^4.6.0"
+
   }
 }
