@@ -1,7 +1,7 @@
 {
-	"name": "your-jira",
+	"name": "webapp",
 	"version": "1.0.0",
-	"description": "An end to end mini-project which explores using NextJs, Next Auth on the frontend and NestJs backend by making a lightweight Kanban board called \\\"Your Jira\\\".",
+	"description": "",
 	"workspaces": [
 		"apps/*"
 	],
