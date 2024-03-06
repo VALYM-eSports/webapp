@@ -31,7 +31,13 @@ copy/paste `.env.example` content into `.env` at root of project
 
 ## Main commands
 
-### Run development mode
+### Start database
+
+```bash
+docker-compose up
+```
+
+### Start frontend + backend
 
 ```bash
 pnpm dev
