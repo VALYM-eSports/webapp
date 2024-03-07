@@ -15,11 +15,14 @@ export class UsersService {
   }
 
   findOne(id: number) {
-    return this.prismaService.user.findUnique({ where: { id: id } });
+    return this.prismaService.user.findUnique({ where: { id } });
   }
 
   update(id: number, updateUserDto: UpdateUserDto) {
-    return `This action updates a #${id} user`;
+    return this.prismaService.user.update({
+      where: { id },
+      data: updateUserDto,
+    });
   }
 
   remove(id: number) {
