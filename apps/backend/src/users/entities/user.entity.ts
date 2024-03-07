@@ -9,7 +9,7 @@ export class UserEntity implements User {
   email: string;
 
   @ApiProperty()
-  name: string;
+  username: string;
 
   @ApiProperty()
   isActive: boolean;
