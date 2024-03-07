@@ -17,5 +17,5 @@ export class CreateUserDto {
   @MinLength(3)
   @MaxLength(30)
   @ApiProperty()
-  readonly name: string;
+  readonly username: string;
 }
