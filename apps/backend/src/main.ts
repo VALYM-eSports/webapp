@@ -6,17 +6,15 @@ import { ValidationPipe } from '@nestjs/common';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
+  app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
+
   const config = new DocumentBuilder()
     .setTitle('VALYM eSports')
     .setDescription('The VALYM eSports API')
     .setVersion('0.1')
     .build();
-
   const document = SwaggerModule.createDocument(app, config);
-
   SwaggerModule.setup('api', app, document);
-
-  app.useGlobalPipes(new ValidationPipe());
 
   await app.listen(3001);
 }
