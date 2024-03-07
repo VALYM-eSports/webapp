@@ -10,7 +10,6 @@ async function bootstrap() {
     .setTitle('VALYM eSports')
     .setDescription('The VALYM eSports API')
     .setVersion('0.1')
-    .addTag('users')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
