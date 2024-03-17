@@ -27,11 +27,18 @@ npm run preinstall
 
 ### Configure .env
 
-copy/paste `.env.example` content into `.env` at root of project
+1. Copy/paste `.env.example` content into `.env` at root of project.
+2. Update for your needs
 
 ## Main commands
 
-### Run development mode
+### Start database
+
+```bash
+docker-compose up
+```
+
+### Start frontend + backend
 
 ```bash
 pnpm dev
