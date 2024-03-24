@@ -14,15 +14,12 @@
 	"author": "VALYM eSports Team",
 	"packageManager": "pnpm@8.15.4",
 	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^6.4.0",
 		"eslint": "^8.57.0",
-		"eslint-config-love": "43.1.0",
-		"eslint-plugin-import": "^2.25.2",
-		"eslint-plugin-n": "^15.0.0",
-		"eslint-plugin-react": "7.34.1",
 		"prettier": "^3.0.2",
 		"tsconfig": "*",
-		"turbo": "latest"
+		"turbo": "latest",
+		"typescript": "5.4.3",
+		"typescript-eslint": "7.3.1"
 	},
 	"scripts": {
 		"build": "turbo run build",
