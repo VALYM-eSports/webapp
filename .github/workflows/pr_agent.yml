@@ -1,4 +1,4 @@
-name: PR-Agent
+name: PR Agent
 on:
   pull_request:
   issue_comment:
@@ -9,7 +9,7 @@ jobs:
       issues: write
       pull-requests: write
       contents: write
-    name: Run pr agent on every pull request, respond to user comments
+    name: Running PR Agent
     steps:
       - name: PR Agent action step
         id: pragent
