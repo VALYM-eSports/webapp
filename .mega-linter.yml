@@ -25,4 +25,4 @@ FILEIO_REPORTER: false
 # Uncomment if you want MegaLinter to detect errors but not block CI to pass
 # DISABLE_ERRORS: true
 
-FILTER_REGEX_EXCLUDE: (^.*\pnpm-lock\.yaml)
+FILTER_REGEX_EXCLUDE: (^.*pnpm-lock\.yaml)
