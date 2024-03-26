@@ -23,7 +23,9 @@
 		"nestjs",
 		"vercel",
 		"nvmrc",
-		"postcss"
+		"postcss",
+		"venv",
+		"stefanzweifel"
 	],
 	"version": "0.2"
 }
