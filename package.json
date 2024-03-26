@@ -1,5 +1,6 @@
 {
 	"name": "webapp",
+	"type": "module",
 	"version": "1.0.0",
 	"description": "",
 	"workspaces": [
@@ -14,10 +15,12 @@
 	"author": "VALYM eSports Team",
 	"packageManager": "pnpm@8.15.4",
 	"devDependencies": {
-		"eslint": "^8.47.0",
+		"eslint": "^8.57.0",
 		"prettier": "^3.0.2",
 		"tsconfig": "*",
-		"turbo": "latest"
+		"turbo": "latest",
+		"typescript": "5.4.3",
+		"typescript-eslint": "7.4.0"
 	},
 	"scripts": {
 		"build": "turbo run build",
